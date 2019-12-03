@@ -8,7 +8,6 @@ Main functions:
   2. vibrations for research purposes
   3. synchronized IMU data collection on iWatch (app)
   4. data stored in csv files
-  
-  
+  5. background data collection (does not work on iWatch)
   
   
