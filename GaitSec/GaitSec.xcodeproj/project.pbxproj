@@ -1,0 +1,913 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A15D59B229F295B00F92779 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0A15D59A229F295B00F92779 /* 3.wav */; };
+		0A15D59D229F298600F92779 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A15D59C229F298600F92779 /* BackgroundTask.swift */; };
+		0A9BADCC22834A3800A9DB34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BADCB22834A3800A9DB34 /* AppDelegate.swift */; };
+		0A9BADCE22834A3800A9DB34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BADCD22834A3800A9DB34 /* ViewController.swift */; };
+		0A9BADD122834A3800A9DB34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BADCF22834A3800A9DB34 /* Main.storyboard */; };
+		0A9BADD322834A3900A9DB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BADD222834A3900A9DB34 /* Assets.xcassets */; };
+		0A9BADD622834A3900A9DB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BADD422834A3900A9DB34 /* LaunchScreen.storyboard */; };
+		0A9BADE122834A3A00A9DB34 /* GaitSecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BADE022834A3A00A9DB34 /* GaitSecTests.swift */; };
+		0A9BADEC22834A3A00A9DB34 /* GaitSecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BADEB22834A3A00A9DB34 /* GaitSecUITests.swift */; };
+		0A9BADF122834A3A00A9DB34 /* GaitSec WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0A9BADF022834A3A00A9DB34 /* GaitSec WatchKit App.app */; };
+		0A9BADF722834A3A00A9DB34 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BADF522834A3A00A9DB34 /* Interface.storyboard */; };
+		0A9BADF922834A3A00A9DB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BADF822834A3A00A9DB34 /* Assets.xcassets */; };
+		0A9BAE0022834A3A00A9DB34 /* GaitSec WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A9BADFF22834A3A00A9DB34 /* GaitSec WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0A9BAE0522834A3A00A9DB34 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BAE0422834A3A00A9DB34 /* InterfaceController.swift */; };
+		0A9BAE0722834A3A00A9DB34 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BAE0622834A3A00A9DB34 /* ExtensionDelegate.swift */; };
+		0A9BAE0922834A3A00A9DB34 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BAE0822834A3A00A9DB34 /* NotificationController.swift */; };
+		0A9BAE0B22834A3B00A9DB34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BAE0A22834A3B00A9DB34 /* Assets.xcassets */; };
+		0A9BAE2622836E0800A9DB34 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9BAE2522836E0800A9DB34 /* AudioToolbox.framework */; };
+		0A9BEDB622840B1C00B1ABC8 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9BEDB522840B1C00B1ABC8 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9BADDD22834A3A00A9DB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9BADC022834A3800A9DB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9BADC722834A3800A9DB34;
+			remoteInfo = GaitSec;
+		};
+		0A9BADE822834A3A00A9DB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9BADC022834A3800A9DB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9BADC722834A3800A9DB34;
+			remoteInfo = GaitSec;
+		};
+		0A9BADF222834A3A00A9DB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9BADC022834A3800A9DB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9BADEF22834A3A00A9DB34;
+			remoteInfo = "GaitSec WatchKit App";
+		};
+		0A9BAE0122834A3A00A9DB34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9BADC022834A3800A9DB34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9BADFE22834A3A00A9DB34;
+			remoteInfo = "GaitSec WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A9BAE1322834A3B00A9DB34 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A9BAE0022834A3A00A9DB34 /* GaitSec WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BAE1722834A3B00A9DB34 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0A9BADF122834A3A00A9DB34 /* GaitSec WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A15D59A229F295B00F92779 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		0A15D59C229F298600F92779 /* BackgroundTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTask.swift; sourceTree = "<group>"; };
+		0A9BADC822834A3800A9DB34 /* GaitSec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaitSec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9BADCB22834A3800A9DB34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A9BADCD22834A3800A9DB34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A9BADD022834A3800A9DB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A9BADD222834A3900A9DB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A9BADD522834A3900A9DB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A9BADD722834A3900A9DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9BADDC22834A3A00A9DB34 /* GaitSecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaitSecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9BADE022834A3A00A9DB34 /* GaitSecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitSecTests.swift; sourceTree = "<group>"; };
+		0A9BADE222834A3A00A9DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9BADE722834A3A00A9DB34 /* GaitSecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaitSecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9BADEB22834A3A00A9DB34 /* GaitSecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaitSecUITests.swift; sourceTree = "<group>"; };
+		0A9BADED22834A3A00A9DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9BADF022834A3A00A9DB34 /* GaitSec WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GaitSec WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9BADF622834A3A00A9DB34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0A9BADF822834A3A00A9DB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A9BADFA22834A3A00A9DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9BADFF22834A3A00A9DB34 /* GaitSec WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GaitSec WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9BAE0422834A3A00A9DB34 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0A9BAE0622834A3A00A9DB34 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0A9BAE0822834A3A00A9DB34 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0A9BAE0A22834A3B00A9DB34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A9BAE0C22834A3B00A9DB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9BAE0D22834A3B00A9DB34 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0A9BAE2122836DE700A9DB34 /* GaitSec.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GaitSec.entitlements; sourceTree = "<group>"; };
+		0A9BAE2522836E0800A9DB34 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0A9BEDB522840B1C00B1ABC8 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9BADC522834A3800A9DB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BAE2622836E0800A9DB34 /* AudioToolbox.framework in Frameworks */,
+				0A9BEDB622840B1C00B1ABC8 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADD922834A3A00A9DB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADE422834A3A00A9DB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADFC22834A3A00A9DB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A9BADBF22834A3800A9DB34 = {
+			isa = PBXGroup;
+			children = (
+				0A9BADCA22834A3800A9DB34 /* GaitSec */,
+				0A9BADDF22834A3A00A9DB34 /* GaitSecTests */,
+				0A9BADEA22834A3A00A9DB34 /* GaitSecUITests */,
+				0A9BADF422834A3A00A9DB34 /* GaitSec WatchKit App */,
+				0A9BAE0322834A3A00A9DB34 /* GaitSec WatchKit Extension */,
+				0A9BADC922834A3800A9DB34 /* Products */,
+				0A9BAE2222836DE700A9DB34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9BADC922834A3800A9DB34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BADC822834A3800A9DB34 /* GaitSec.app */,
+				0A9BADDC22834A3A00A9DB34 /* GaitSecTests.xctest */,
+				0A9BADE722834A3A00A9DB34 /* GaitSecUITests.xctest */,
+				0A9BADF022834A3A00A9DB34 /* GaitSec WatchKit App.app */,
+				0A9BADFF22834A3A00A9DB34 /* GaitSec WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9BADCA22834A3800A9DB34 /* GaitSec */ = {
+			isa = PBXGroup;
+			children = (
+				0A15D59A229F295B00F92779 /* 3.wav */,
+				0A9BAE2122836DE700A9DB34 /* GaitSec.entitlements */,
+				0A9BADCB22834A3800A9DB34 /* AppDelegate.swift */,
+				0A9BADCD22834A3800A9DB34 /* ViewController.swift */,
+				0A9BADCF22834A3800A9DB34 /* Main.storyboard */,
+				0A9BADD222834A3900A9DB34 /* Assets.xcassets */,
+				0A9BADD422834A3900A9DB34 /* LaunchScreen.storyboard */,
+				0A9BADD722834A3900A9DB34 /* Info.plist */,
+				0A15D59C229F298600F92779 /* BackgroundTask.swift */,
+			);
+			path = GaitSec;
+			sourceTree = "<group>";
+		};
+		0A9BADDF22834A3A00A9DB34 /* GaitSecTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BADE022834A3A00A9DB34 /* GaitSecTests.swift */,
+				0A9BADE222834A3A00A9DB34 /* Info.plist */,
+			);
+			path = GaitSecTests;
+			sourceTree = "<group>";
+		};
+		0A9BADEA22834A3A00A9DB34 /* GaitSecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BADEB22834A3A00A9DB34 /* GaitSecUITests.swift */,
+				0A9BADED22834A3A00A9DB34 /* Info.plist */,
+			);
+			path = GaitSecUITests;
+			sourceTree = "<group>";
+		};
+		0A9BADF422834A3A00A9DB34 /* GaitSec WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BADF522834A3A00A9DB34 /* Interface.storyboard */,
+				0A9BADF822834A3A00A9DB34 /* Assets.xcassets */,
+				0A9BADFA22834A3A00A9DB34 /* Info.plist */,
+			);
+			path = "GaitSec WatchKit App";
+			sourceTree = "<group>";
+		};
+		0A9BAE0322834A3A00A9DB34 /* GaitSec WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BAE0422834A3A00A9DB34 /* InterfaceController.swift */,
+				0A9BAE0622834A3A00A9DB34 /* ExtensionDelegate.swift */,
+				0A9BAE0822834A3A00A9DB34 /* NotificationController.swift */,
+				0A9BAE0A22834A3B00A9DB34 /* Assets.xcassets */,
+				0A9BAE0C22834A3B00A9DB34 /* Info.plist */,
+				0A9BAE0D22834A3B00A9DB34 /* PushNotificationPayload.apns */,
+			);
+			path = "GaitSec WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0A9BAE2222836DE700A9DB34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BEDB522840B1C00B1ABC8 /* HealthKit.framework */,
+				0A9BAE2522836E0800A9DB34 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9BADC722834A3800A9DB34 /* GaitSec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BAE1822834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSec" */;
+			buildPhases = (
+				0A9BADC422834A3800A9DB34 /* Sources */,
+				0A9BADC522834A3800A9DB34 /* Frameworks */,
+				0A9BADC622834A3800A9DB34 /* Resources */,
+				0A9BAE1722834A3B00A9DB34 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9BADF322834A3A00A9DB34 /* PBXTargetDependency */,
+			);
+			name = GaitSec;
+			productName = GaitSec;
+			productReference = 0A9BADC822834A3800A9DB34 /* GaitSec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9BADDB22834A3A00A9DB34 /* GaitSecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BAE1B22834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSecTests" */;
+			buildPhases = (
+				0A9BADD822834A3A00A9DB34 /* Sources */,
+				0A9BADD922834A3A00A9DB34 /* Frameworks */,
+				0A9BADDA22834A3A00A9DB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9BADDE22834A3A00A9DB34 /* PBXTargetDependency */,
+			);
+			name = GaitSecTests;
+			productName = GaitSecTests;
+			productReference = 0A9BADDC22834A3A00A9DB34 /* GaitSecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A9BADE622834A3A00A9DB34 /* GaitSecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BAE1E22834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSecUITests" */;
+			buildPhases = (
+				0A9BADE322834A3A00A9DB34 /* Sources */,
+				0A9BADE422834A3A00A9DB34 /* Frameworks */,
+				0A9BADE522834A3A00A9DB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9BADE922834A3A00A9DB34 /* PBXTargetDependency */,
+			);
+			name = GaitSecUITests;
+			productName = GaitSecUITests;
+			productReference = 0A9BADE722834A3A00A9DB34 /* GaitSecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		0A9BADEF22834A3A00A9DB34 /* GaitSec WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BAE1422834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSec WatchKit App" */;
+			buildPhases = (
+				0A9BADEE22834A3A00A9DB34 /* Resources */,
+				0A9BAE1322834A3B00A9DB34 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9BAE0222834A3A00A9DB34 /* PBXTargetDependency */,
+			);
+			name = "GaitSec WatchKit App";
+			productName = "GaitSec WatchKit App";
+			productReference = 0A9BADF022834A3A00A9DB34 /* GaitSec WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0A9BADFE22834A3A00A9DB34 /* GaitSec WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BAE1022834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSec WatchKit Extension" */;
+			buildPhases = (
+				0A9BADFB22834A3A00A9DB34 /* Sources */,
+				0A9BADFC22834A3A00A9DB34 /* Frameworks */,
+				0A9BADFD22834A3A00A9DB34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GaitSec WatchKit Extension";
+			productName = "GaitSec WatchKit Extension";
+			productReference = 0A9BADFF22834A3A00A9DB34 /* GaitSec WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9BADC022834A3800A9DB34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Yingnan Sun";
+				TargetAttributes = {
+					0A9BADC722834A3800A9DB34 = {
+						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+					0A9BADDB22834A3A00A9DB34 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0A9BADC722834A3800A9DB34;
+					};
+					0A9BADE622834A3A00A9DB34 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0A9BADC722834A3800A9DB34;
+					};
+					0A9BADEF22834A3A00A9DB34 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0A9BADFE22834A3A00A9DB34 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A9BADC322834A3800A9DB34 /* Build configuration list for PBXProject "GaitSec" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9BADBF22834A3800A9DB34;
+			productRefGroup = 0A9BADC922834A3800A9DB34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9BADC722834A3800A9DB34 /* GaitSec */,
+				0A9BADDB22834A3A00A9DB34 /* GaitSecTests */,
+				0A9BADE622834A3A00A9DB34 /* GaitSecUITests */,
+				0A9BADEF22834A3A00A9DB34 /* GaitSec WatchKit App */,
+				0A9BADFE22834A3A00A9DB34 /* GaitSec WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9BADC622834A3800A9DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A15D59B229F295B00F92779 /* 3.wav in Resources */,
+				0A9BADD622834A3900A9DB34 /* LaunchScreen.storyboard in Resources */,
+				0A9BADD322834A3900A9DB34 /* Assets.xcassets in Resources */,
+				0A9BADD122834A3800A9DB34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADDA22834A3A00A9DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADE522834A3A00A9DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADEE22834A3A00A9DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BADF922834A3A00A9DB34 /* Assets.xcassets in Resources */,
+				0A9BADF722834A3A00A9DB34 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADFD22834A3A00A9DB34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BAE0B22834A3B00A9DB34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9BADC422834A3800A9DB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A15D59D229F298600F92779 /* BackgroundTask.swift in Sources */,
+				0A9BADCE22834A3800A9DB34 /* ViewController.swift in Sources */,
+				0A9BADCC22834A3800A9DB34 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADD822834A3A00A9DB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BADE122834A3A00A9DB34 /* GaitSecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADE322834A3A00A9DB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BADEC22834A3A00A9DB34 /* GaitSecUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BADFB22834A3A00A9DB34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BAE0922834A3A00A9DB34 /* NotificationController.swift in Sources */,
+				0A9BAE0722834A3A00A9DB34 /* ExtensionDelegate.swift in Sources */,
+				0A9BAE0522834A3A00A9DB34 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9BADDE22834A3A00A9DB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9BADC722834A3800A9DB34 /* GaitSec */;
+			targetProxy = 0A9BADDD22834A3A00A9DB34 /* PBXContainerItemProxy */;
+		};
+		0A9BADE922834A3A00A9DB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9BADC722834A3800A9DB34 /* GaitSec */;
+			targetProxy = 0A9BADE822834A3A00A9DB34 /* PBXContainerItemProxy */;
+		};
+		0A9BADF322834A3A00A9DB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9BADEF22834A3A00A9DB34 /* GaitSec WatchKit App */;
+			targetProxy = 0A9BADF222834A3A00A9DB34 /* PBXContainerItemProxy */;
+		};
+		0A9BAE0222834A3A00A9DB34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9BADFE22834A3A00A9DB34 /* GaitSec WatchKit Extension */;
+			targetProxy = 0A9BAE0122834A3A00A9DB34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A9BADCF22834A3800A9DB34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9BADD022834A3800A9DB34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9BADD422834A3900A9DB34 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9BADD522834A3900A9DB34 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9BADF522834A3A00A9DB34 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9BADF622834A3A00A9DB34 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9BAE0E22834A3B00A9DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A9BAE0F22834A3B00A9DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9BAE1122834A3B00A9DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = "GaitSec WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSec.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0A9BAE1222834A3B00A9DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = "GaitSec WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSec.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0A9BAE1522834A3B00A9DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				IBSC_MODULE = GaitSec_WatchKit_Extension;
+				INFOPLIST_FILE = "GaitSec WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSec.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Debug;
+		};
+		0A9BAE1622834A3B00A9DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				IBSC_MODULE = GaitSec_WatchKit_Extension;
+				INFOPLIST_FILE = "GaitSec WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSec.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.2;
+			};
+			name = Release;
+		};
+		0A9BAE1922834A3B00A9DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GaitSec/GaitSec.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = GaitSec/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9BAE1A22834A3B00A9DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GaitSec/GaitSec.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = GaitSec/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A9BAE1C22834A3B00A9DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = GaitSecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaitSec.app/GaitSec";
+			};
+			name = Debug;
+		};
+		0A9BAE1D22834A3B00A9DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = GaitSecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GaitSec.app/GaitSec";
+			};
+			name = Release;
+		};
+		0A9BAE1F22834A3B00A9DB34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = GaitSecUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaitSec;
+			};
+			name = Debug;
+		};
+		0A9BAE2022834A3B00A9DB34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M4E5YLW7RP;
+				INFOPLIST_FILE = GaitSecUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kevinapp.GaitSecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GaitSec;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9BADC322834A3800A9DB34 /* Build configuration list for PBXProject "GaitSec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BAE0E22834A3B00A9DB34 /* Debug */,
+				0A9BAE0F22834A3B00A9DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BAE1022834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSec WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BAE1122834A3B00A9DB34 /* Debug */,
+				0A9BAE1222834A3B00A9DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BAE1422834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSec WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BAE1522834A3B00A9DB34 /* Debug */,
+				0A9BAE1622834A3B00A9DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BAE1822834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BAE1922834A3B00A9DB34 /* Debug */,
+				0A9BAE1A22834A3B00A9DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BAE1B22834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BAE1C22834A3B00A9DB34 /* Debug */,
+				0A9BAE1D22834A3B00A9DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BAE1E22834A3B00A9DB34 /* Build configuration list for PBXNativeTarget "GaitSecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BAE1F22834A3B00A9DB34 /* Debug */,
+				0A9BAE2022834A3B00A9DB34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9BADC022834A3800A9DB34 /* Project object */;
+}
